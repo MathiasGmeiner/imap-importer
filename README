@@ -1,1 +1,3 @@
 Simple email export and import. Written in PHP.
+
+Thanks to http://migrationtool.sourceforge.net/ this script is just a simpler version of the "IMAP Migration Tool".
