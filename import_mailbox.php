@@ -2,6 +2,9 @@
 require("./config.php");
 require("./functions.php");
 
+$destinationUser = destinationUserCheck();
+$destinationPwd = destinationPwdCheck();
+
 $mailbox = $_GET['folder'];
 
 // Open sourceServer and mailbox

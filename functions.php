@@ -55,6 +55,30 @@ function imap_mailbox_create($connection, $server, $mailbox) {
 }
 
 
+// check destination-user check
+function destinationUserCheck() {
+	global $destinationUser, $sourceUser; 
+
+	if ($destinationUser=="") {
+		$destinationUser = $sourceUser;
+	}
+
+	return $destinationUser;
+}
+
+
+// check destination-pwd check
+function destinationPwdCheck() {
+	global $destinationPwd, $sourcePwd;
+
+	if ($destinationPwd=="") {
+		$destinationPwd = $sourcePwd;
+	}
+
+	return $destinationPwd;
+}
+
+
 /*
  * memory check
  *

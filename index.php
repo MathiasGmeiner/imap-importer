@@ -4,6 +4,7 @@ require("./functions.php");
 
 
 memory_check();
+$destinationUser = destinationUserCheck();
 ?>
 <html>
 <head>
